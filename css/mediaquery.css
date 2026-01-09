@@ -1,0 +1,89 @@
+/* =====================================
+   MOBILE FIRST – CONTENT DRIVEN SPACING
+===================================== */
+
+@media (max-width: 768px) {
+
+.box-header {
+    height: auto;
+    min-height: unset;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+}
+
+/* Headings spacing */
+  h1, h2, h3 {
+    margin-bottom: 12px;
+  }
+
+  /* Paragraph spacing */
+  p {
+    margin-bottom: 16px;
+  }
+
+  /* Lists / logos spacing */
+  ul, .customer {
+    margin-bottom: 20px;
+  }
+
+}
+  /* Kill artificial vertical gaps */
+  section,
+  .container,
+  .box {
+    margin-bottom: 0 !important;
+  }
+
+  /* Use padding instead of margins */
+  .container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  /* Remove viewport-based spacing */
+  #text1 {
+    margin-bottom: 0 !important;
+  }
+
+  /* Reduce section padding */
+  .black {
+    padding: 24px 0;
+  }
+
+  /* Footer should wrap content only */
+  footer,
+  footer .container {
+    min-height: unset !important;
+    padding: 24px 0;
+  }
+
+}
+/* =====================================
+   RESPONSIVE BREAKPOINTS
+===================================== */
+
+/* Small phones */
+@media (max-width: 480px) {
+  .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+/* Phones & small tablets */
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
